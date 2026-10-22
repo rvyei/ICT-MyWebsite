@@ -1,0 +1,234 @@
+/*ABOUT ME PAGE STYLES*/
+
+.about-page-body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tiny5', sans-serif;
+  font-weight: 400;
+  background-color: #3D1534;
+}
+
+.about-container {
+  width: 1440px;
+  height: 995px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #3D1534;
+}
+
+.navbar-container {
+  position: absolute;
+  width: 618px;
+  height: 50px;
+  left: 732px;
+  top: 24px;
+  z-index: 10;
+}
+
+.nav-btn {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  background: #F6E0B6;
+  border-radius: 100px;
+}
+
+.nav-btn-1 { left: 0px; }
+.nav-btn-2 { left: 166px; }
+.nav-btn-3 { left: 332px; }
+.nav-btn-4 { left: 498px; }
+
+.nav-link {
+  position: absolute;
+  top: 14px;
+  color: #3D1534;
+  font-size: 24px;
+  text-decoration: none;
+  word-wrap: break-word;
+  text-align: center;
+  z-index: 11;
+}
+
+.nav-link-home { width: 63px; left: 43px; }
+.nav-link-about { width: 72px; left: 205px; }
+.nav-link-projects { width: 114px; left: 350px; }
+.nav-link-contact { width: 99px; left: 523px; }
+
+.footer-bar {
+  width: 1440px;
+  height: 70px;
+  left: 0px;
+  top: 925px;
+  position: absolute;
+  background: #F6E0B6;
+}
+
+.large-card-bg {
+  width: 763px;
+  height: 654px;
+  left: 580px;
+  top: 271px;
+  position: absolute;
+  background: #FFF4EB;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 50px;
+}
+
+.header-banner-img {
+  width: 666px;
+  height: 310px;
+  left: 45px;
+  top: 33px;
+  position: absolute;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 50px;
+  object-fit: cover;
+}
+
+.profile-wrapper-about {
+  width: 350px;
+  height: 350px;
+  left: 390px;
+  top: 159px;
+  position: absolute;
+  z-index: 6;
+}
+
+.profile-bg-circle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #3D1534;
+  border-radius: 9999px;
+}
+
+.profile-img-about {
+  width: 340px;
+  height: 340px;
+  left: 5px;
+  top: 5px;
+  position: absolute;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.about-welcome-text {
+  position: absolute;
+  width: 383px;
+  height: 21px;
+  left: 835px;
+  top: 125px;
+  color: #F6E0B6;
+  font-size: 24px;
+  margin: 0;
+}
+
+.name-display {
+  position: absolute;
+  width: 572px;
+  height: 91px;
+  left: 796px;
+  top: 141px;
+  color: #F6E0B6;
+  font-size: 96px;
+  margin: 0;
+  line-height: 108px;
+}
+
+.about-main-title {
+  position: absolute;
+  width: 453px;
+  height: 102px;
+  left: 780px;
+  top: 330px;
+  color: #3D1534;
+  font-size: 96px;
+  margin: 0;
+  line-height: 108px;
+  z-index: 7;
+}
+
+.about-bio {
+  position: absolute;
+  width: 596px;
+  height: 351px;
+  word-spacing: 12px;
+  left: 700px;
+  top: 455px;
+  text-align: justify;
+  color: #3D1534;
+  font-size: 22px;
+  margin: 0;
+  line-height: 25px;
+  z-index: 7;
+}
+
+.achievements-heading {
+  width: 313px;
+  height: 72px;
+  left: 83px;
+  top: 351px;
+  position: absolute;
+  color: #FFF4EB;
+  font-size: 40px;
+  margin: 0;
+}
+
+.achievement-card {
+  position: absolute;
+  left: 87px;
+  background: #FFF4EB;
+}
+
+.card-1 { width: 201px; height: 70px; top: 476px; border-radius: 0px 50px 50px 50px; }
+.card-2 { width: 295px; height: 70px; top: 596px; border-radius: 0px 50px 50px 50px; }
+.card-3 { width: 374px; height: 70px; top: 712px; border-radius: 0px 50px 50px 50px; }
+.card-4 { width: 374px; height: 70px; top: 827px; border-radius: 0px 50px 50px 50px; }
+
+.achievement-dot {
+  width: 30px;
+  height: 30px;
+  left: 53px;
+  position: absolute;
+  background: #5E6CB5;
+  border-radius: 9999px;
+}
+
+.dot-1 { top: 452px; }
+.dot-2 { top: 567px; }
+.dot-3 { top: 682px; }
+.dot-4 { top: 797px; }
+
+.achievement-text {
+  position: absolute;
+  height: 59px;
+  font-size: 24px;
+  line-height: 27px;
+  color: #3D1534;
+}
+
+.text-1 { left: 113px; top: 483px; width: 135px; }
+.text-2 { left: 113px; top: 601px; width: 243px; }
+.text-3 { left: 124px; top: 717px; width: 297px; }
+.text-4 { left: 125px; top: 833px; width: 297px; }
+
+.about-footer {
+  width: 536px;
+  height: 21px;
+  left: 478px;
+  top: 950px;
+  position: absolute;
+  color: #351126;
+  font-size: 24px;
+}
+
+.copyright-symbol {
+  text-decoration: underline;
+}
